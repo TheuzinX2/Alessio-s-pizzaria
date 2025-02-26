@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>formulario</title>
+    </head>
+    <body>
+        <h1>Formulario de inscricao</h1>
+        <form action="">
+            <label for="name">Nome</label><br>
+            <input type="text" name="nome" id="name" required placeholder="zeismai">
+            <br><br>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" required placeholder="zeismai@gmail.com">
+            <br><br>
+
+            <label for="numero">WhatsApp</label><br>
+            <input type="tel" placeholder="Format: 1234567890" pattern="[0-9]{10}">
+            <br><br>
+
+            <label>Área de atuação</label> <br>
+            <input type="radio" name="trabalho" id="Desenvolvimento" value="Desenvolvimento">
+            <label for="Desenvolvimento">Desenvolvimento</label>
+            
+            <input type="radio" name="trabalho" id="Quality Assurance (QA)" value="Quality Assurance (QA)">
+            <label for="Quality Assurance (QA)">Quality Assurance (QA)</label>
+
+            <input type="radio" name="trabalho" id="Análise de Dados" value="Análise de Dados">
+            <label for="Análise de Dados">Análise de Dados</label>
+
+            <input type="radio" name="trabalho" id="Infraestrutura" value="Infraestrutura">
+            <label for="Infraestrutura">Infraestrutura</label>
+            <br><br>
+
+            <label for="observacoes">Observacoes</label><br>
+            <textarea name="observacoes" id="observacoes" cols="40" rows="6"></textarea>
+            <br><br>
+
+            <input type="checkbox" name="aviso" id="aviso" required>
+            <label for="aviso">Desejo receber novidades e ofertas por email.</label>
+            <br><br>
+            <button type="submit">enviar</button>
+            
+        </form>
+        
+
+    </body>
+</html>

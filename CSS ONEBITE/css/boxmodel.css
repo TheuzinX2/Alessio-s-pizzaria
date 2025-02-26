@@ -1,0 +1,19 @@
+.box {
+    background-color: red;
+    border: 2px solid black;
+
+}
+
+.box {
+    /* margem*/
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+    /* preenchimento */
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
